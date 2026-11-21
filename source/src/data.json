@@ -1,0 +1,895 @@
+{
+ "cats": [
+  {
+   "id": "amuse",
+   "numeral": "I",
+   "title": "Amuse-Bouche",
+   "kicker": "Small plates & sharing",
+   "blurb": "The first bite sets the promise. Precise, cold-kitchen work built to be eaten in one or two mouthfuls."
+  },
+  {
+   "id": "appetisers",
+   "numeral": "II",
+   "title": "Appetisers",
+   "kicker": "Regional Indian starters",
+   "blurb": "Bold, spiced small plates to open the meal: fried crisp, finished with fresh herbs and lime."
+  },
+  {
+   "id": "mains",
+   "numeral": "III",
+   "title": "Mains",
+   "kicker": "Western · Italian · Regional Indian",
+   "blurb": "Hot-line cooking with discipline: sauces built properly, pasta cooked with nerve, plates that leave the pass clean."
+  },
+  {
+   "id": "stations",
+   "numeral": "IV",
+   "title": "Live Stations",
+   "kicker": "In full view of the guest",
+   "blurb": "Cooking as theatre. Carving, tossing, grilling and plating to order, while talking to the people you are cooking for."
+  },
+  {
+   "id": "confections",
+   "numeral": "V",
+   "title": "Confections",
+   "kicker": "Pastry & chocolate",
+   "blurb": "Where patience is non-negotiable. Tempered chocolate, set mousses and pâtisserie finished by hand."
+  }
+ ],
+ "dishes": [
+  {
+   "id": "mezze",
+   "featured": true,
+   "category": "amuse",
+   "name": "Arabic Mezze Platter",
+   "short": "Ten Levantine components on one tray",
+   "description": "A ten-component Levantine spread, plated tray-style so every dip, crisp and crudité has its own place.",
+   "story": "Built like a map: cool labneh and smoky baba ganoush beside a sweet-hot muhammara and a vivid beetroot hummus, with sumac chickpeas, lavash, tortilla crisps, pita and crudités for crunch, and an arugula house salad served high in a coupe. Every element is portioned, garnished and placed with intent.",
+   "flavor": {
+    "Freshness": 85,
+    "Acidity": 65,
+    "Spice": 45,
+    "Richness": 55,
+    "Texture": 80
+   },
+   "components": [
+    "Labneh",
+    "Muhammara",
+    "Beetroot Hummus",
+    "Baba Ganoush",
+    "Sumac Chickpeas",
+    "Lavash",
+    "Tortilla Chips",
+    "Pita Bread",
+    "Crudités",
+    "Arugula House Salad"
+   ],
+   "tags": [
+    "Levantine",
+    "Cold kitchen",
+    "Sharing"
+   ],
+   "mood": {
+    "accent": "#f0a73a",
+    "bg": "#170d03",
+    "name": "Saffron"
+   },
+   "images": [
+    "mezze-table",
+    "mezze-annotated",
+    "chef-mezze"
+   ]
+  },
+  {
+   "id": "pate",
+   "featured": true,
+   "category": "amuse",
+   "name": "Liver Pâté Canapé",
+   "short": "Silken pâté, crisp shell, textured glass",
+   "description": "Silken liver pâté piped into crisp tart shells, set on toasted pumpkin seeds over textured glass.",
+   "story": "A canapé is a test of control. The pâté is passed until completely smooth, piped at an even height and finished with a glossy garnish. Served on a bed of toasted pumpkin seeds over bubbled glass, so the light does half the plating.",
+   "flavor": {
+    "Richness": 85,
+    "Salinity": 60,
+    "Crunch": 70,
+    "Acidity": 30,
+    "Finesse": 90
+   },
+   "tags": [
+    "Canapé",
+    "Garde manger",
+    "Piping"
+   ],
+   "mood": {
+    "accent": "#9fd3e6",
+    "bg": "#040b10",
+    "name": "Glacier"
+   },
+   "images": [
+    "pate-canape",
+    "pate-canape-2"
+   ]
+  },
+  {
+   "id": "phyllo",
+   "featured": true,
+   "category": "amuse",
+   "name": "Forester Phyllo Blossoms",
+   "short": "Hors d’oeuvre from the Gala Dinner menu",
+   "description": "Buttery phyllo shells folded into blossoms and filled with a savoury mushroom mousse and sautéed spinach.",
+   "story": "The opening course of a gala menu. Sheets of phyllo are brushed, layered and shaped into open flowers, baked crisp, then filled with a woodland mushroom mousse. Served in a bamboo steamer with edible flowers, the forest presented as a small bite.",
+   "flavor": {
+    "Earthiness": 85,
+    "Butter": 75,
+    "Crunch": 80,
+    "Herbal": 55,
+    "Finesse": 70
+   },
+   "tags": [
+    "Gala Dinner",
+    "Pastry",
+    "Mushroom"
+   ],
+   "mood": {
+    "accent": "#9cc25a",
+    "bg": "#070c04",
+    "name": "Forest"
+   },
+   "images": [
+    "phyllo-blossoms",
+    "gala-menu"
+   ]
+  },
+  {
+   "id": "stroganoff",
+   "featured": true,
+   "category": "mains",
+   "name": "Chicken & Mushroom Stroganoff",
+   "short": "Gala Dinner main course",
+   "description": "Chicken and mushrooms in a velvet cream sauce, with buttery mash and honey-garlic glazed vegetables.",
+   "story": "The main course of the gala menu. The mushrooms are seared hard for colour before the sauce is built, and the cream is reduced slowly so it coats rather than floods. Plated alongside smooth mashed potato and vegetables glazed in a sweet and savoury honey-garlic reduction.",
+   "flavor": {
+    "Umami": 85,
+    "Richness": 80,
+    "Earthiness": 75,
+    "Sweetness": 35,
+    "Comfort": 95
+   },
+   "tags": [
+    "Gala Dinner",
+    "Sauce work",
+    "Continental"
+   ],
+   "mood": {
+    "accent": "#c8894b",
+    "bg": "#100804",
+    "name": "Umber"
+   },
+   "images": [
+    "stroganoff",
+    "forest-mushrooms",
+    "gala-menu"
+   ]
+  },
+  {
+   "id": "carving",
+   "featured": true,
+   "category": "stations",
+   "name": "The Carving Station",
+   "short": "Whole roasts, carved to order",
+   "description": "Whole roasts carved to order, surrounded by roasted roots, charred citrus and seasonal greens.",
+   "story": "A carving station is part kitchen, part stage. Whole birds and joints are roasted, rested and carved in front of the guest, with a ring of roasted vegetables and citrus that keeps the board as generous at the end of service as it was at the start.",
+   "flavor": {
+    "Roast": 90,
+    "Savoury": 85,
+    "Citrus": 40,
+    "Herbal": 50,
+    "Generosity": 95
+   },
+   "tags": [
+    "Live station",
+    "Roasting",
+    "Buffet"
+   ],
+   "mood": {
+    "accent": "#ff9a2e",
+    "bg": "#140902",
+    "name": "Amber"
+   },
+   "images": [
+    "carving-station"
+   ]
+  },
+  {
+   "id": "pasta",
+   "featured": true,
+   "category": "stations",
+   "name": "Thirteen Handmade Pastas",
+   "short": "One cook, thirteen shapes, one Gala Dinner",
+   "description": "Thirteen pasta varieties, all mixed, rolled, cut and filled by hand by one cook for a Gala Dinner pasta bar.",
+   "story": "Ribbons first: fettuccine, tagliatelle, pappardelle. Then the filled shapes: mezzelune, cappelletti, agnolotti. Then the small ones: sorpresine, barchette, farfalle. Naturally coloured doughs, all single-handed. \"The ribbons teach you the dough. The filled shapes teach you patience, and that a rushed seal always shows.\"",
+   "flavor": {
+    "Craft": 98,
+    "Patience": 95,
+    "Colour": 85,
+    "Texture": 80,
+    "Precision": 90
+   },
+   "tags": [
+    "Pasta fresca",
+    "Solo build",
+    "Gala Dinner"
+   ],
+   "mood": {
+    "accent": "#f0cd4a",
+    "bg": "#0f0b03",
+    "name": "Semolina"
+   },
+   "images": [
+    "pasta-bar",
+    "pasta-gala",
+    "pasta-bar-wide"
+   ],
+   "video": "pasta-bar"
+  },
+  {
+   "id": "chicken65",
+   "featured": true,
+   "category": "appetisers",
+   "name": "Chicken 65",
+   "short": "Chennai’s fiery fried chicken",
+   "description": "Chicken marinated in chilli, ginger and curry leaf, fried crisp and finished with a tempered glaze and lime.",
+   "story": "Regional Indian food, cooked with the same precision as the Western menu. The marinade is balanced for heat and tang, the fry is done in two stages for a crunch that survives the glaze, and the plate is finished with fresh herbs and lime.",
+   "flavor": {
+    "Heat": 85,
+    "Tang": 65,
+    "Crunch": 85,
+    "Aroma": 80,
+    "Spice": 90
+   },
+   "tags": [
+    "South Indian",
+    "Fry",
+    "Tempering"
+   ],
+   "mood": {
+    "accent": "#ff5e3a",
+    "bg": "#140503",
+    "name": "Chilli"
+   },
+   "images": [
+    "chicken-65-slate"
+   ]
+  },
+  {
+   "id": "salad",
+   "featured": true,
+   "category": "stations",
+   "name": "Salad on the Go",
+   "short": "Crisp, bright and built for service",
+   "description": "Crisp leaves, pomegranate, shaved cheese and a bright vinaigrette, made fresh and fast for high-volume service.",
+   "story": "Freshness at volume. Leaves washed, spun and kept cold, dressings emulsified per batch, and garnishes such as pomegranate, cheese and microgreens placed so every bowl looks like the first one.",
+   "flavor": {
+    "Freshness": 95,
+    "Acidity": 70,
+    "Crunch": 75,
+    "Lightness": 90,
+    "Colour": 80
+   },
+   "tags": [
+    "Garde manger",
+    "Grab & go",
+    "Volume"
+   ],
+   "mood": {
+    "accent": "#4fd1a0",
+    "bg": "#03100b",
+    "name": "Verdant"
+   },
+   "images": [
+    "salad-slate"
+   ]
+  },
+  {
+   "id": "patisserie",
+   "featured": true,
+   "category": "confections",
+   "name": "Paris-Brest, Choux & Crème Brûlée",
+   "short": "Three classics of French pâtisserie",
+   "description": "A cream-filled Paris-Brest ring, velvet-coated choux finished with edible flowers, and a torched crème brûlée.",
+   "story": "Three classical techniques on one table: choux paste piped into a ring and baked hollow and crisp for the Paris-Brest, then filled with cream; choux buns coated in a velvet spray for a matte, mossy finish; and a custard set gently and torched to a glass-thin crust.",
+   "flavor": {
+    "Sweetness": 75,
+    "Cream": 85,
+    "Crunch": 55,
+    "Finesse": 90,
+    "Vanilla": 70
+   },
+   "tags": [
+    "Pâtisserie",
+    "Choux",
+    "Entremets"
+   ],
+   "mood": {
+    "accent": "#c98ae0",
+    "bg": "#0c0512",
+    "name": "Orchid"
+   },
+   "images": [
+    "patisserie",
+    "bonbons"
+   ]
+  },
+  {
+   "id": "gianduja",
+   "featured": true,
+   "category": "confections",
+   "name": "Gianduja Mousse",
+   "short": "30% hazelnut · 70% chocolate",
+   "description": "Thirty percent hazelnut, seventy percent chocolate: a glossy set mousse finished with a lace tuile and fresh fruit.",
+   "story": "Gianduja is Piedmont’s marriage of hazelnut and chocolate. Here it is folded into a mousse with a 30/70 balance, set until it slices clean, and finished with a crisp lace tuile and fruit for acidity.",
+   "flavor": {
+    "Chocolate": 90,
+    "Nuttiness": 80,
+    "Sweetness": 60,
+    "Silkiness": 90,
+    "Bitterness": 45
+   },
+   "tags": [
+    "Mousse",
+    "Chocolate",
+    "Plated dessert"
+   ],
+   "mood": {
+    "accent": "#d99a62",
+    "bg": "#0d0603",
+    "name": "Cacao"
+   },
+   "images": [
+    "gianduja-mousse"
+   ]
+  },
+  {
+   "id": "cheese",
+   "category": "amuse",
+   "name": "Cheese Board Under Glass",
+   "short": "Cheeses, fruit, nuts & crackers",
+   "description": "A curated cheese board served under a glass cloche: hard and soft cheeses, fruit, nuts, olives and crackers.",
+   "story": "Cheese service is about temperature, cut and rhythm. Each cheese is cut to suit its texture and arranged from mild to bold, then paired with fruit, nuts and crackers so the guest can build every bite.",
+   "flavor": {
+    "Richness": 80,
+    "Salinity": 65,
+    "Sweetness": 40,
+    "Texture": 75,
+    "Pairing": 90
+   },
+   "tags": [
+    "Fromagerie",
+    "Presentation"
+   ],
+   "mood": {
+    "accent": "#e8c35c",
+    "bg": "#0e0b04",
+    "name": "Brie"
+   },
+   "images": [
+    "cheese-cloche"
+   ]
+  },
+  {
+   "id": "glazed-chicken",
+   "category": "mains",
+   "name": "Roast Chicken",
+   "short": "Pan jus, scored potato, asparagus",
+   "description": "Roast chicken glazed with its pan jus, with charred asparagus, herbed rice and scored potato on a fluted plate.",
+   "story": "A Western main plated for symmetry: protein dead centre, a glaze reduced until it mirrors the light, asparagus laid in parallel and the starch shaped beneath. Clean rim, no smears.",
+   "flavor": {
+    "Savoury": 85,
+    "Sweetness": 45,
+    "Char": 60,
+    "Herbal": 50,
+    "Balance": 85
+   },
+   "tags": [
+    "Western",
+    "Glaze",
+    "Plating"
+   ],
+   "mood": {
+    "accent": "#e2a443",
+    "bg": "#100903",
+    "name": "Lacquer"
+   },
+   "images": [
+    "glazed-chicken"
+   ]
+  },
+  {
+   "id": "awadhi",
+   "featured": true,
+   "category": "mains",
+   "name": "Awadhi Thali",
+   "short": "A Lucknowi feast on brass",
+   "description": "A full Awadhi thali on brass: galouti and tikka to begin, then biryani, korma and sides in katoris, with sheermal.",
+   "story": "Awadhi cooking is about slow, layered aroma. The thali is built course by course: a kebab plate to begin, then a brass thali with fragrant pulao topped with fried onions, curries and raita in individual katoris, crisp rolls and breads on the side. It is styled on red cloth with whole spices, makhana and wheat sheaves, so the presentation tells the story before the first bite.",
+   "flavor": {
+    "Aroma": 95,
+    "Richness": 85,
+    "Spice": 70,
+    "Warmth": 85,
+    "Festivity": 95
+   },
+   "tags": [
+    "Awadhi",
+    "Regional Indian",
+    "Thali"
+   ],
+   "mood": {
+    "accent": "#ff6a3d",
+    "bg": "#140604",
+    "name": "Vermilion"
+   },
+   "images": [
+    "awadhi-thali",
+    "festive-platter"
+   ]
+  },
+  {
+   "id": "assassina",
+   "featured": true,
+   "category": "mains",
+   "name": "Spaghetti all'Assassina",
+   "short": "Pan-charred, risotto-style spaghetti from Bari",
+   "description": "Bari's \"assassin's\" spaghetti, cooked straight in a ferociously hot pan until the strands char, crackle and caramelise.",
+   "story": "No pot of boiling water. Raw spaghetti goes into a blistering pan with garlic, chilli and oil, then is fed ladle by ladle with a light tomato broth. The skill is nerve: letting the pasta catch and blacken without burning, so every strand carries a smoky crunch around a soft, sticky centre. Finished with Parmigiano and parsley.",
+   "flavor": {
+    "Smoke": 85,
+    "Heat": 70,
+    "Umami": 80,
+    "Acidity": 45,
+    "Crunch": 75
+   },
+   "tags": [
+    "Pugliese",
+    "Pan-charred",
+    "Tomato brodo"
+   ],
+   "mood": {
+    "accent": "#ff4a1c",
+    "bg": "#1a0604",
+    "name": "Ember"
+   },
+   "images": [
+    "assassina"
+   ]
+  },
+  {
+   "id": "paneer-cafreal",
+   "category": "appetisers",
+   "name": "Paneer Cafreal",
+   "short": "Goan green masala, made with paneer",
+   "description": "Paneer in a Goan-style cafreal masala of fresh coriander, green chilli and spice, finished with lime.",
+   "story": "Cafreal is a Goan green masala: coriander, green chilli, garlic, ginger and whole spices ground fresh and cooked down until fragrant. Here it coats paneer, served on an oval plate with lime and herbs.",
+   "flavor": {
+    "Herbal": 90,
+    "Heat": 70,
+    "Tang": 65,
+    "Aroma": 85,
+    "Freshness": 80
+   },
+   "tags": [
+    "Goan",
+    "Regional Indian",
+    "Vegetarian"
+   ],
+   "mood": {
+    "accent": "#7fd36b",
+    "bg": "#06100a",
+    "name": "Coriander"
+   },
+   "images": [
+    "indian-plate"
+   ]
+  },
+  {
+   "id": "mushroom-hara-pyaaz",
+   "category": "mains",
+   "name": "Mushroom Hara Pyaaz",
+   "short": "Mushrooms tossed with spring onion",
+   "description": "Mushrooms cooked in a spiced masala with fresh spring onion greens, finished with julienned vegetables and cream.",
+   "story": "A regional Indian vegetarian main built on the freshness of hara pyaaz (spring onion). The mushrooms are seared before going into the masala so they stay meaty, and the onion greens go in at the end for colour and bite.",
+   "flavor": {
+    "Umami": 85,
+    "Spice": 65,
+    "Freshness": 70,
+    "Earthiness": 80,
+    "Comfort": 85
+   },
+   "tags": [
+    "Regional Indian",
+    "Vegetarian"
+   ],
+   "mood": {
+    "accent": "#c8894b",
+    "bg": "#100804",
+    "name": "Umber"
+   },
+   "images": [
+    "indian-curry"
+   ]
+  },
+  {
+   "id": "caesar",
+   "category": "stations",
+   "name": "The Caesar Salad Station",
+   "short": "Conceptualised & run as a live station",
+   "description": "A live Caesar station I conceptualised and ran: dressing emulsified to order, toppings built in front of the guest.",
+   "story": "Responsible for conceptualising and operating a live Caesar Salad Station, offering a unique and engaging dining experience. Crisp romaine, croutons, Parmesan and a full spread of toppings, assembled and dressed to order while talking guests through every element.",
+   "flavor": {
+    "Umami": 75,
+    "Acidity": 65,
+    "Crunch": 85,
+    "Freshness": 80,
+    "Theatre": 95
+   },
+   "tags": [
+    "Live station",
+    "Concept",
+    "Guest interaction"
+   ],
+   "mood": {
+    "accent": "#d8c27a",
+    "bg": "#0d0b05",
+    "name": "Parmesan"
+   },
+   "images": [
+    "caesar-station",
+    "caesar-mise"
+   ]
+  },
+  {
+   "id": "pizza",
+   "category": "stations",
+   "name": "Hand-Tossed Pizza",
+   "short": "Stretched, tossed & fired to order",
+   "description": "Dough stretched and tossed by hand at the live counter, then fired to order in the oven.",
+   "story": "Italian at the counter: dough balls proofed for the day, opened and tossed by hand in front of guests, topped with restraint and fired until the cornicione blisters.",
+   "flavor": {
+    "Char": 75,
+    "Chew": 85,
+    "Tomato": 70,
+    "Craft": 90,
+    "Theatre": 95
+   },
+   "tags": [
+    "Italian",
+    "Live counter",
+    "Dough"
+   ],
+   "mood": {
+    "accent": "#ffb347",
+    "bg": "#120a03",
+    "name": "Hearth"
+   },
+   "images": [
+    "pizza-toss",
+    "dough-roll",
+    "pizza-oven"
+   ],
+   "video": "pizza-toss-2"
+  },
+  {
+   "id": "grill",
+   "category": "stations",
+   "name": "Fire & Grill",
+   "short": "Open flame and flambé, cooked in the moment",
+   "description": "Open-fire grilling and flambé at a live outdoor station, with flame, smoke and timing in front of the guest.",
+   "story": "Cooking over live fire is all about reading heat. Flare-ups are managed, not feared, the flambé is timed for the guest, and every piece comes off the grate with char outside and juice inside.",
+   "flavor": {
+    "Smoke": 95,
+    "Char": 90,
+    "Heat": 80,
+    "Juiciness": 80,
+    "Theatre": 100
+   },
+   "tags": [
+    "Live fire",
+    "Flambé",
+    "Outdoor"
+   ],
+   "mood": {
+    "accent": "#ff7a1a",
+    "bg": "#140602",
+    "name": "Flame"
+   },
+   "images": [
+    "flame-grill",
+    "flame-grill-2"
+   ],
+   "video": "flambe"
+  },
+  {
+   "id": "pani-puri",
+   "category": "stations",
+   "name": "Pani Puri Station",
+   "short": "Street-food classic, set up for service",
+   "description": "A live pani puri setup: crisp puris, spiced potato, and chilled tamarind and mint waters in jugs, assembled to order.",
+   "story": "Street food at hotel standard. Puris fried crisp and kept dry, pani spiced and chilled in jugs, and every filling, chutney and masala portioned into its own bowl, so each puri is assembled and served the second it is ordered.",
+   "flavor": {
+    "Tang": 90,
+    "Spice": 75,
+    "Crunch": 90,
+    "Freshness": 85,
+    "Theatre": 85
+   },
+   "tags": [
+    "Street food",
+    "Live station",
+    "Chaat"
+   ],
+   "mood": {
+    "accent": "#9cc25a",
+    "bg": "#070c04",
+    "name": "Mint"
+   },
+   "images": [
+    "spice-mise"
+   ]
+  },
+  {
+   "id": "south-indian",
+   "category": "stations",
+   "name": "South Indian Breakfast",
+   "short": "A full poolside breakfast operation",
+   "description": "Running the South Indian breakfast operation: dosa to order with chutneys, podi and accompaniments.",
+   "story": "Breakfast service at scale. Batters fermented the night before, chutneys and podis prepared fresh, and dosas spread thin and crisp to order, with the mise en place laid out like a palette.",
+   "flavor": {
+    "Tang": 70,
+    "Crispness": 90,
+    "Spice": 60,
+    "Freshness": 85,
+    "Comfort": 90
+   },
+   "tags": [
+    "Regional Indian",
+    "Breakfast",
+    "Volume"
+   ],
+   "mood": {
+    "accent": "#7fd36b",
+    "bg": "#06100a",
+    "name": "Curry leaf"
+   },
+   "images": [
+    "south-indian",
+    "condiments"
+   ]
+  },
+  {
+   "id": "bonbons",
+   "category": "confections",
+   "name": "Hand-Piped Bonbons",
+   "short": "Tempered shells, piped ganache",
+   "description": "Moulded chocolate bonbons: tempered shells filled by hand with piped ganache and sealed clean.",
+   "story": "Chocolate rewards discipline. Shells are tempered for snap and shine, filled with a piping bag one cavity at a time, and capped without a smear, so the finished bonbon releases with a mirror finish.",
+   "flavor": {
+    "Chocolate": 95,
+    "Snap": 85,
+    "Sweetness": 65,
+    "Shine": 90,
+    "Precision": 95
+   },
+   "tags": [
+    "Chocolate",
+    "Tempering",
+    "Moulding"
+   ],
+   "mood": {
+    "accent": "#e0a070",
+    "bg": "#0e0604",
+    "name": "Ganache"
+   },
+   "images": [
+    "bonbons",
+    "chocolate-piping"
+   ]
+  },
+  {
+   "id": "truffles",
+   "category": "confections",
+   "name": "Gooseberry & Beet Botanicals",
+   "short": "Coconut, beetroot & gooseberry, sugar-rolled",
+   "description": "Hand-rolled botanicals of coconut, beetroot and gooseberry, finished in crystal sugar and packed into glass.",
+   "story": "A confection built on natural colour and tang. Coconut is cooked down with sugar, beetroot for its deep jewel colour and gooseberry for a sharp, fruity bite, then weighed, rolled by hand into identical spheres and coated in sugar for sparkle and crunch.",
+   "flavor": {
+    "Sweetness": 75,
+    "Tang": 80,
+    "Coconut": 85,
+    "Earthiness": 55,
+    "Crunch": 60
+   },
+   "tags": [
+    "Confection",
+    "Coconut",
+    "Gooseberry"
+   ],
+   "mood": {
+    "accent": "#d0487a",
+    "bg": "#12040a",
+    "name": "Beetroot"
+   },
+   "images": [
+    "gooseberry-beet"
+   ],
+   "video": "truffle-jar"
+  },
+  {
+   "id": "classic-mousse",
+   "category": "confections",
+   "name": "The Classical Mousse",
+   "short": "Plated for a menu tasting",
+   "description": "A classical chocolate mousse, set and plated for a menu tasting alongside its menu card.",
+   "story": "Mousse is air held in place: chocolate, eggs and cream folded with a light hand so the bubbles survive, then set until it slices clean. Plated for a menu tasting, presented with the menu card beside it.",
+   "flavor": {
+    "Chocolate": 85,
+    "Silkiness": 90,
+    "Sweetness": 60,
+    "Lightness": 80,
+    "Finesse": 85
+   },
+   "tags": [
+    "Mousse",
+    "Menu tasting"
+   ],
+   "mood": {
+    "accent": "#d99a62",
+    "bg": "#0d0603",
+    "name": "Cacao"
+   },
+   "images": [
+    "classic-mousse"
+   ]
+  },
+  {
+   "id": "couscous-bowls",
+   "category": "amuse",
+   "name": "Couscous & Feta Bowls",
+   "short": "Pomegranate, cucumber sail, crumbled feta",
+   "description": "Individual couscous bowls with pomegranate, cucumber and crumbled feta, portioned identically for service.",
+   "story": "Cold-kitchen work at volume: every bowl filled to the same line, garnished in the same order, with a cucumber sail for height, so the hundredth bowl looks like the first.",
+   "flavor": {
+    "Freshness": 90,
+    "Tang": 60,
+    "Texture": 70,
+    "Colour": 85,
+    "Uniformity": 95
+   },
+   "tags": [
+    "Garde manger",
+    "Volume"
+   ],
+   "mood": {
+    "accent": "#4fd1a0",
+    "bg": "#03100b",
+    "name": "Verdant"
+   },
+   "images": [
+    "salad-bowls"
+   ]
+  }
+ ],
+ "info": {
+  "name": "Uddipan Datta",
+  "first": "Uddipan",
+  "last": "Datta",
+  "role": "Culinary Associate",
+  "programme": "The Oberoi STEP · Trident Agra",
+  "location": "Agra, Uttar Pradesh, India",
+  "email": "udddipandatta@gmail.com",
+  "phone": "+91 87941 77528",
+  "linkedin": "https://www.linkedin.com/in/uddipandatta-694a212a2",
+  "instagram": "https://www.instagram.com/finelyytossed",
+  "instagramHandle": "@finelyytossed",
+  "intro": "I'm Uddipan Datta, a Culinary Associate on The Oberoi's Systematic Training & Education Programme at Trident Agra. Two years in luxury hotel kitchens, cooking Western, Italian and regional Indian food through high-volume service and at live stations, in full view of the guest."
+ },
+ "stats": [
+  {
+   "value": 2,
+   "suffix": "",
+   "label": "Years in luxury hotel kitchens"
+  },
+  {
+   "value": 13,
+   "suffix": "",
+   "label": "Pastas handmade solo for one Gala Dinner"
+  },
+  {
+   "value": 6,
+   "suffix": "",
+   "label": "Years running a culinary content platform"
+  },
+  {
+   "value": 3,
+   "suffix": "",
+   "label": "Languages: English, Hindi, Bengali"
+  }
+ ],
+ "journey": [
+  {
+   "years": "2024 — Present",
+   "role": "STEP · Kitchen Operations",
+   "org": "The Oberoi Centre of Learning & Development · Trident Agra",
+   "image": "chef-mezze",
+   "points": [
+    "High-volume service in line with SOPs, quality benchmarks and hygiene standards",
+    "Oversaw Western cuisine operations, Italian and Indian food",
+    "Led live stations in direct view of guests",
+    "Produced salads, cold cuts and handcrafted pastas",
+    "Worked with Finance on buffet & menu costing, food cost control and pricing",
+    "Built Excel costing; used AI tools for menu documentation & presentation decks"
+   ]
+  },
+  {
+   "years": "Certification",
+   "role": "Contemporary Equipment Training",
+   "org": "Welbilt Group",
+   "image": "pizza-oven",
+   "points": [
+    "Commercial kitchen equipment and its correct, efficient use"
+   ]
+  },
+  {
+   "years": "6 Years",
+   "role": "Creator",
+   "org": "Independent culinary content platform · @finelyytossed",
+   "image": "chef-plate",
+   "points": [
+    "Running an independent culinary content platform alongside training and studies"
+   ]
+  },
+  {
+   "years": "2024 — 2027",
+   "role": "Bachelor's Degree in Tourism Studies",
+   "org": "IGNOU · Tourism & Travel Services Management",
+   "image": "chef-book",
+   "points": [
+    "Pursuing alongside full-time kitchen training"
+   ]
+  },
+  {
+   "years": "2023",
+   "role": "Higher Secondary Education, Humanities",
+   "org": "Don Bosco School, Agartala, Tripura",
+   "image": "chef-bw",
+   "points": []
+  }
+ ],
+ "awards": [
+  "STEP of the Month, Trident Agra",
+  "Kudos for Managing Operations",
+  "Guest Recognitions",
+  "Certification for Grooming",
+  "Kudos for Guest Excellence",
+  "Appreciation for Cross-Departmental Support"
+ ],
+ "skills": [
+  "Western Cuisine",
+  "Italian Cuisine",
+  "Handmade Pasta",
+  "Live Stations",
+  "Regional Indian",
+  "High-Volume Service",
+  "Food Safety & Hygiene",
+  "SOP Adherence",
+  "Luxury Hospitality",
+  "Menu Costing",
+  "Food Cost Control",
+  "Pricing Support",
+  "Microsoft Excel",
+  "Presentation Decks",
+  "Conducting Training",
+  "Impeccable Grooming",
+  "Guest Interaction",
+  "Team Collaboration"
+ ]
+}

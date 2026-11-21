@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uddipan Datta — Culinary Portfolio</title>
+  <meta name="description" content="Uddipan Datta, Culinary Associate at The Oberoi STEP, Trident Agra. Plated dishes, live stations and pastry from luxury hotel kitchens." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="./assets/index-CPKelsZH.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BIJ46Qfu.css">
+</head>
+<body>
+  <!-- Global nav -->
+  <header class="gnav" id="gnav">
+    <div class="gnav__inner">
+      <a href="#top" class="gnav__brand" data-scroll>Uddipan Datta</a>
+      <nav class="gnav__links" aria-label="Sections">
+        <a href="#chef" data-scroll>Chef</a>
+        <a href="#craft" data-scroll>Craft</a>
+        <a href="#philosophy" data-scroll>Philosophy</a>
+        <a href="#menu" data-scroll>Menu</a>
+        <a href="#journey" data-scroll>Journey</a>
+      </nav>
+      <a href="#contact" class="pill pill--sm" data-scroll>Let’s talk</a>
+      <button class="gnav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+    <div class="gnav__sheet" aria-hidden="true">
+      <a href="#chef" data-scroll>Chef</a>
+      <a href="#craft" data-scroll>Craft</a>
+      <a href="#philosophy" data-scroll>Philosophy</a>
+      <a href="#menu" data-scroll>Menu</a>
+      <a href="#journey" data-scroll>Journey</a>
+      <a href="#contact" data-scroll>Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO: 3D tasting ring -->
+    <section class="hero" id="hero">
+      <div class="hero__sticky">
+        <canvas id="ring" aria-hidden="true"></canvas>
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow" data-intro>Culinary Associate · The Oberoi STEP, Trident Agra</p>
+          <h1 class="hero__title" data-intro><span>Uddipan</span> <span>Datta.</span></h1>
+          <p class="hero__lede" data-intro>Plates, platters and live stations from luxury hotel kitchens.</p>
+        </div>
+        <div class="hero__dish" data-intro>
+          <div class="hero__dish-meta">
+            <p class="hero__dish-count"><span id="dishIndex">01</span> / <span id="dishTotal">12</span> · <span id="dishMood">Saffron</span></p>
+            <h2 class="hero__dish-name" id="dishName">Arabic Mezze Platter</h2>
+            <p class="hero__dish-short" id="dishShort">Ten Levantine components on one tray</p>
+          </div>
+          <div class="hero__controls">
+            <button class="round-btn" id="prevDish" aria-label="Previous dish"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <button class="pill pill--accent" id="inspectDish">Inspect dish</button>
+            <button class="round-btn" id="nextDish" aria-label="Next dish"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+        <p class="hero__hint" data-intro>Drag to turn the table · Scroll to begin</p>
+      </div>
+    </section>
+
+    <!-- THE CHEF -->
+    <section class="chef" id="chef">
+      <div class="wrap">
+        <p class="eyebrow">The chef</p>
+        <p class="reveal-text" id="introText">I’m Uddipan Datta, a Culinary Associate on The Oberoi’s Systematic Training &amp; Education Programme at Trident Agra. Two years in luxury hotel kitchens, cooking Western, Italian and regional Indian food through high-volume service and at live stations, in full view of the guest.</p>
+      </div>
+      <div class="chef__portrait wrap">
+        <figure class="chef__frame" data-zoom>
+          <img src="./media/lg/chef-plate.webp" alt="Uddipan Datta with a plated dish" loading="lazy" />
+        </figure>
+        <p class="caption">Culinary Associate — The Oberoi STEP · Trident Agra</p>
+      </div>
+      <div class="wrap stats" id="stats"></div>
+    </section>
+
+    <!-- LIVE STATION: scroll-expanding video -->
+    <section class="expand" id="live">
+      <div class="expand__sticky">
+        <div class="expand__media" id="expandMedia">
+          <video src="./media/video/pizza-toss.mp4" poster="./media/video/pizza-toss.jpg" muted loop playsinline preload="metadata" data-autoplay></video>
+          <div class="expand__shade"></div>
+        </div>
+        <div class="expand__copy">
+          <p class="eyebrow eyebrow--light">Live station</p>
+          <h2 class="display">Cooking in full view<br />of the guest.</h2>
+          <p class="lede">Dough opened and tossed by hand at the live Italian counter: craft, timing and conversation, all at once.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CRAFT: light, pinned horizontal -->
+    <section class="craft light" id="craft">
+      <div class="craft__pin">
+        <div class="craft__track" id="craftTrack">
+          <div class="craft__intro">
+            <p class="eyebrow">Chapter 02 — The craft</p>
+            <h2 class="display">Plating precision,<br />by hand.</h2>
+            <p class="lede">Knife work, sauce work, dough and chocolate, the small disciplines that turn ingredients into a plate worth photographing.</p>
+            <p class="craft__hint">Keep scrolling <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></p>
+          </div>
+        </div>
+        <div class="craft__progress"><span id="craftBar"></span></div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section class="philo" id="philosophy">
+      <div class="wrap"><p class="eyebrow">Chapter 03 — Culinary philosophy</p></div>
+      <div class="philo__lines" id="philoLines"></div>
+      <div class="wrap philo__grid">
+        <figure class="philo__portrait" data-iris>
+          <img src="./media/lg/chef-bw.webp" alt="Portrait in chef whites" loading="lazy" />
+        </figure>
+        <div class="philo__body">
+          <blockquote class="philo__quote">“Luxury is the sum of small things done right, every single time.”</blockquote>
+          <ul class="principles" id="principles"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu light" id="menu">
+      <div class="wrap">
+        <p class="eyebrow">Chapter 04 — The tasting menu</p>
+        <div class="menu__head">
+          <h2 class="display">A menu in five<br />movements.</h2>
+          <p class="lede">Plates, platters and live stations from my work in luxury hotel kitchens. Tap any dish to open the Inspector and see its story and flavour profile.</p>
+        </div>
+      </div>
+      <div class="segbar" id="segbar"><div class="seg" id="seg" role="tablist"></div></div>
+      <div class="wrap" id="courses"></div>
+    </section>
+
+    <!-- 13 PASTAS -->
+    <section class="pasta" id="pasta">
+      <video class="pasta__bg" src="./media/video/pasta-bar.mp4" poster="./media/video/pasta-bar.jpg" muted loop playsinline preload="metadata" data-autoplay></video>
+      <div class="pasta__shade"></div>
+      <div class="wrap pasta__inner">
+        <p class="eyebrow eyebrow--light">Gala Dinner — a solo build</p>
+        <div class="pasta__row">
+          <p class="pasta__num" id="pastaNum">13</p>
+          <div>
+            <h2 class="display">pastas.<br /><span class="muted">One pair of hands.</span></h2>
+            <blockquote class="pasta__quote">“The ribbons teach you the dough. The filled shapes teach you patience, and that a rushed seal always shows.”</blockquote>
+            <button class="link-cta" data-open="pasta">Inspect the pasta bar <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="marquee" data-items="Fettuccine,Tagliatelle,Pappardelle,Mezzelune,Cappelletti,Agnolotti,Sorpresine,Barchette,Farfalle"></div>
+    </section>
+
+    <!-- REELS -->
+    <section class="reels" id="reels">
+      <div class="wrap">
+        <div class="reels__head">
+          <div>
+            <p class="eyebrow">From the pass — reels</p>
+            <h2 class="display">Motion, straight<br />from service.</h2>
+          </div>
+          <a class="link-cta" href="https://www.instagram.com/finelyytossed" target="_blank" rel="noreferrer">More on @finelyytossed <svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+        <div class="reels__grid" id="reelGrid"></div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="journey light" id="journey">
+      <div class="wrap">
+        <p class="eyebrow">Chapter 05 — The journey</p>
+        <h2 class="display">Trained in the<br />Oberoi way.</h2>
+        <ol class="timeline" id="timeline"></ol>
+        <div class="awards">
+          <figure class="awards__photo" data-zoom>
+            <img src="./media/lg/grooming-award.webp" alt="Receiving the Excellence in Grooming recognition" loading="lazy" />
+          </figure>
+          <div>
+            <p class="caption caption--dark">Excellence in Grooming</p>
+            <h3 class="awards__title">Recognition</h3>
+            <ul class="awards__list" id="awards"></ul>
+            <p class="awards__note">Also certified in Contemporary Equipment Training by Welbilt Group. Languages: English (professional), Hindi (fluent), Bengali (native).</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="marquee marquee--light" id="skillsA"></div>
+        <div class="marquee marquee--light marquee--reverse" id="skillsB"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <video class="contact__bg" src="./media/video/flambe.mp4" poster="./media/video/flambe.jpg" muted loop playsinline preload="metadata" data-autoplay></video>
+      <div class="contact__shade"></div>
+      <div class="wrap contact__inner">
+        <p class="eyebrow eyebrow--light">Chapter 06 — Reservations</p>
+        <h2 class="contact__title">Let’s set<br /><span class="grad">the table.</span></h2>
+        <div class="contact__row">
+          <button class="email-pill" id="copyEmail"><span>udddipandatta@gmail.com</span><i id="copyIcon">Copy</i></button>
+          <p class="lede">Open to culinary roles, stages and collaborations in luxury hospitality. Based in Agra, Uttar Pradesh, India.</p>
+        </div>
+        <ul class="contact__links">
+          <li><a href="https://www.linkedin.com/in/uddipandatta-694a212a2" target="_blank" rel="noreferrer">LinkedIn<svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></a></li>
+          <li><a href="https://www.instagram.com/finelyytossed" target="_blank" rel="noreferrer">Instagram<svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></a></li>
+          <li><a href="mailto:udddipandatta@gmail.com">Email<svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></a></li>
+          <li><a href="tel:+918794177528">Call<svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></a></li>
+        </ul>
+      </div>
+      <footer class="footer wrap">
+        <span>© <span id="year">2026</span> Uddipan Datta</span>
+        <span>@finelyytossed · +91 87941 77528</span>
+        <a href="#top" data-scroll>Back to the first course ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Dish inspector -->
+  <div class="inspector" id="inspector" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="insName">
+    <div class="inspector__scrim" data-close></div>
+    <article class="inspector__sheet">
+      <button class="inspector__close" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <div class="inspector__media" id="insMedia"></div>
+      <div class="inspector__body">
+        <p class="eyebrow" id="insKicker"></p>
+        <h3 class="inspector__name" id="insName"></h3>
+        <p class="inspector__desc" id="insDesc"></p>
+        <p class="inspector__story" id="insStory"></p>
+        <div id="insComponents"></div>
+        <div class="flavour" id="insFlavour"></div>
+        <div class="chips" id="insTags"></div>
+        <div class="inspector__nav">
+          <button class="round-btn round-btn--dark" id="insPrev" aria-label="Previous dish"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="round-btn round-btn--dark" id="insNext" aria-label="Next dish"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="loader" id="loader"><div class="loader__bar"><span id="loaderBar"></span></div></div>
+</body>
+</html>
