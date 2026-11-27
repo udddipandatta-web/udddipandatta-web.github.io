@@ -52,8 +52,8 @@ const FRAG = /* glsl */ `
     float rim = (1.0 - smoothstep(0.0, 0.018, abs(d + 0.012))) * uActive;
     col = mix(col, uMood, rim * 0.85);
 
-    // fade neighbours toward the dark stage
-    col *= mix(1.0, 0.32, uDim);
+    // fade neighbours toward the light stage
+    col = mix(col, vec3(1.0), uDim * 0.55);
 
     float a = mask * uOpacity;
     if (uReflect > 0.5) {
@@ -141,7 +141,7 @@ export function createRing(canvas, dishes, { mediaUrl, onChange, onOpen, onProgr
 
   // Floor halo under the active plate
   const haloMat = new THREE.ShaderMaterial({
-    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+    transparent: true, depthWrite: false, blending: THREE.NormalBlending,
     uniforms: { uColor: { value: mood.clone() }, uAlpha: { value: 0 } },
     vertexShader: `varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }`,
     fragmentShader: `uniform vec3 uColor; uniform float uAlpha; varying vec2 vUv;
@@ -168,7 +168,7 @@ export function createRing(canvas, dishes, { mediaUrl, onChange, onOpen, onProgr
   pGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
   pGeo.setAttribute('aSeed', new THREE.BufferAttribute(seed, 1));
   const pMat = new THREE.ShaderMaterial({
-    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+    transparent: true, depthWrite: false, blending: THREE.NormalBlending,
     uniforms: { uTime: { value: 0 }, uColor: { value: mood.clone() }, uPx: { value: 1 } },
     vertexShader: `uniform float uTime; uniform float uPx; attribute float aSeed; varying float vA;
       void main(){ vec3 p = position; p.y += mod(uTime * (0.08 + aSeed * 0.12) + aSeed * 8.0, 8.0) - 2.0;
